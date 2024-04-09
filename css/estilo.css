@@ -36,11 +36,16 @@ h2, p{
     color: 	#FFF0F5;
 }
 .primerBg{
-    background-image: url("../img/fiesta.jpg");
+    background: url("../img/fiesta.jpg") 
+    no-repeat fixed center center transparent;
+    -webkit-background-size: 1920px 960px;
+    -moz-background-size: cover;
+    background-size: cover;
+    /* background-image: url("../img/fiesta.jpg");
     background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
 .segundoBg{
