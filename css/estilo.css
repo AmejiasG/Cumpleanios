@@ -35,17 +35,14 @@ h1{
 h2, p{
     color: 	#FFF0F5;
 }
+
+
 .primerBg{
-    background: url("../img/fiesta.jpg") 
-    no-repeat fixed center center transparent;
-    -webkit-background-size: 1920px 960px;
-    -moz-background-size: cover;
-    background-size: cover;
-    /* background-image: url("../img/fiesta.jpg");
-    background-size:cover;
-    background-attachment: fixed;
+    background-image: url("../img/fiesta.jpg");
+    background-color: rgb(162, 227, 245);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center; */
+
 }
 
 .segundoBg{
@@ -54,22 +51,17 @@ h2, p{
 
 .tercerBg{
     background-color: var(--bs-blue);
+    position: relative;
 }
 
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .fotoGato{
-    background-image: url("../img/pxfuel.jpg");
-    background-size:cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.fotoGato2{
-    background-image: url("../img/cantinfla.jpg");
-    background-size:cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+    border-radius: 20px;
 }
 
 .taza {
