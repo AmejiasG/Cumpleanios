@@ -7,7 +7,7 @@ function saludar(){
 
       const msg = document.getElementById("disfruta");
       msg.innerHTML =  `<h2>disfruta :)<h2/> `
-
+      console.log("saludando")
 }
  
 const btn = document.getElementById("boton");
