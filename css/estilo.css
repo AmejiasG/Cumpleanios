@@ -25,7 +25,6 @@ body{
 }
 
 h1{
-    
     font-size: 40px;
     color:rgb(9, 66, 117);
     background-color: #feffff;
@@ -49,17 +48,34 @@ h2, p{
     background-color: #80b1bf;
 }
 
+.fotogato{
+    background-image: url("../img/cantinfla.jpg");
+    background-color: var(--bs-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.fotogato2 {
+    background-image: url("../img/pxfuel.jpg");
+    background-color: var(--bs-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fototaza {
+    background-image: url("../img/taza.jpeg");
+    background-color: var(--bs-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
 .tercerBg{
     background-color: var(--bs-blue);
     position: relative;
 }
 
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 .fotoGato{
     border-radius: 20px;
 }
