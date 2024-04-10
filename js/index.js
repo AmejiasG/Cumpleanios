@@ -6,7 +6,7 @@ function saludar(){
       });
 
       const msg = document.getElementById("disfruta");
-      msg.innerHTML =  `<h2>disfruta :)<h2/> `
+      msg.innerHTML =  `<div><h2>disfruta :)<h2/></div>`
       console.log("saludando")
 }
  
