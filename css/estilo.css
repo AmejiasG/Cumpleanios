@@ -24,14 +24,6 @@ body{
     text-align: center;
 }
 
-.titulo{
-    display: flex;
-    align-items: center;
-    max-width: 100vw;
-    min-height: 100vh;
-    text-align: start;
-
-}
 h1{
     font-size: 40px;
     color:rgb(9, 66, 117);
@@ -45,11 +37,11 @@ h2, p{
 
 
 .primerBg{
-    background-image: url("../img/fotogatito.png");
+    background-image: url("../img/fiesta.jpg");
     background-color: rgb(162, 227, 245);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:contain;
+
 }
 
 .segundoBg{
@@ -61,8 +53,7 @@ h2, p{
     background-color: var(--bs-blue);
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:contain;
+    background-size: contain;
 
 }
 
@@ -71,16 +62,20 @@ h2, p{
     background-color: var(--bs-blue);
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:contain;
+    background-size: contain;
+}
+
+.fototaza {
+    background-image: url("../img/taza.jpeg");
+    background-color: var(--bs-blue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
 }
 
 .tercerBg{
     background-color: var(--bs-blue);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    position: relative;
 }
 
 .fotoGato{
@@ -88,12 +83,8 @@ h2, p{
 }
 
 .taza {
-    display: flex;
-    justify-content: center;
     max-width: 300px;
     border-radius: 40px;
-    background-color: var(--bs-blue);
-
 }
 
 .hidden {
